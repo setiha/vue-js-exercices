@@ -1,0 +1,1 @@
+Gyakorlatok git-tel
