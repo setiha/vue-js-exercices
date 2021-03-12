@@ -1,1 +1,8 @@
-console.log("Hello world");
+
+let app = new Vue({
+    el: 'main#app',
+    data:{
+        pageTitle: 'Osztalynaplo',
+
+    }
+});
