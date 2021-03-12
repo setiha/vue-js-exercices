@@ -9,6 +9,13 @@
 <main id="app">
     <h1>{{pageTitle}}</h1>
     <input type="text" v-model="pageTitle">
+
+    <!--diaklista-->
+    <ul>
+        <li v-for="student in studentCollection">{{student}}</li>
+
+    </ul>
+
 </main>
 
 <script src="vue%20.js"></script>
