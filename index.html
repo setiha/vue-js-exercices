@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml"
+      xmlns:style="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Osztalynaplo</title>
@@ -8,17 +9,31 @@
 
 <main id="app">
     <h1>{{pageTitle}}</h1>
-    <input type="text" v-model="pageTitle">
-
     <!--diaklista-->
     <ul>
-        <li v-for="student in studentCollection">{{student}}</li>
+        <li v-for="student in studentCollection">
+            <span v-bind:style="GetColor(student)">{{student.name}}</span></li>
 
     </ul>
 
+    <input type="text" v-model="newStudent.name" @keydown.enter="AddNewStudent">
+    <br>
+    <label>
+        lany
+        <input type="radio" name="gender" v-model="newStudent.gender" value="lany">
+    </label>
+    <br>
+    <label>
+       fiu
+        <input type="radio" name="gender" v-model="newStudent.gender" value="fiu">
+    </label>
+    <br>
+    ertek: {{newStudent.gender}}
+    <button v-on:click="AddNewStudent">Hozzaadas</button>
 </main>
 
 <script src="vue%20.js"></script>
 <script defer src="scripts.js"></script>
 </body>
+
 </html>
