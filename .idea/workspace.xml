@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d0c79ac-9deb-4fbe-b702-107bd28cf7b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="5d0c79ac-9deb-4fbe-b702-107bd28cf7b7" name="Default" comment="v-bind, v-model, v-on data.methods -osztalynevsor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1615800992391" duration="104000" />
       <workItem from="1615805723351" duration="31000" />
       <workItem from="1615805778197" duration="32000" />
-      <workItem from="1615806291267" duration="5876000" />
+      <workItem from="1615806291267" duration="6586000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1615542080558</created>
@@ -120,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615544444800</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v-bind, v-model, v-on data.methods -osztalynevsor">
+      <created>1615817643747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615817643747</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,16 +135,25 @@
     <MESSAGE value="starting" />
     <MESSAGE value="a Vue s app initializalasa, a v-model emlitese" />
     <MESSAGE value="v-for direktiva" />
-    <option name="LAST_COMMIT_MESSAGE" value="v-for direktiva" />
+    <MESSAGE value="v-bind, v-model, v-on data.methods -osztalynevsor" />
+    <option name="LAST_COMMIT_MESSAGE" value="v-bind, v-model, v-on data.methods -osztalynevsor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615807064821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1615807064821" />
+    <state x="674" y="0" key="CommitChangelistDialog2" timestamp="1615817640865">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="674" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1615817640865" />
     <state x="289" y="15" key="SettingsEditor" timestamp="1615807006726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="289" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615807006726" />
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1615817647244">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615817647244" />
   </component>
 </project>

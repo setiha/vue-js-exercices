@@ -12,7 +12,11 @@
     <!--diaklista-->
     <ul>
         <li v-for="student in studentCollection">
-            <span v-bind:style="GetColor(student)">{{student.name}}</span></li>
+            <span v-bind:style="GetColor(student)">{{student.name}}</span>
+            <span v-if="student.gender ==='fiu'">Labdat kap gyereknapra</span>
+            <span v-show="student.gender ==='lany'">Viragot kap gyereknapra</span>
+
+        </li>
 
     </ul>
 
