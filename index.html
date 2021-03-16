@@ -8,36 +8,19 @@
 <body>
 
 <main id="app">
-    <h1>{{pageTitle}}</h1>
-    <!--diaklista-->
-    <ul>
-        <li v-for="student in studentCollection">
-            <span v-bind:style="GetColor(student)">{{student.name}}</span>
-            <span v-if="student.gender ==='fiu'">Labdat kap gyereknapra</span>
-            <span v-show="student.gender ==='lany'">Viragot kap gyereknapra</span>
+        <h1>Kereső</h1>
 
-        </li>
+            <input type="text" v-model="nameFilter">
 
-    </ul>
+    <ol>
+      <li v-for="film in GetFilteredList()">{{film}}</li>
+    </ol>
 
-    <input type="text" v-model="newStudent.name" @keydown.enter="AddNewStudent">
-    <br>
-    <label>
-        lany
-        <input type="radio" name="gender" v-model="newStudent.gender" value="lany">
-    </label>
-    <br>
-    <label>
-       fiu
-        <input type="radio" name="gender" v-model="newStudent.gender" value="fiu">
-    </label>
-    <br>
-    ertek: {{newStudent.gender}}
-    <button v-on:click="AddNewStudent">Hozzaadas</button>
 </main>
 
 <script src="vue%20.js"></script>
-<script defer src="scripts.js"></script>
+<!--<script defer src="scripts.js"></script>-->
+<script defer src="vuenewscript.js"></script>
 </body>
 
 </html>
