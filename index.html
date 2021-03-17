@@ -7,41 +7,20 @@
 </head>
 <body>
 
-<!-- oldalcím -->
-<h1>Kosár</h1>
 <main id="app">
-    <!-- hozzáadás -->
-    <div>
-        <input type="text" placeholder="Termék neve" v-model="newItem.piece" v-on:keydown.enter="AddNewItem()">
-    </div>
-    <div>
-        <input type="number" placeholder="Darabszám" v-model="newItem.count" v-on:keydown.enter="AddNewItem()">
-        <span> db </span>
-    </div>
-    <div>
-        <input type="number" placeholder="Egységár" v-model="newItem.basePrice" v-on:keydown.enter="AddNewItem()">
-        <span> Ft </span>
-    </div>
-    <div>
-        <button v-on:click="AddNewItem()">Hozzáadás</button>
-    </div>
+    <h1>Kereső</h1>
 
-    <!-- lista -->
-    <ul>
-        <li v-for="item in itemCollection">{{item.piece}}
-            <ul>
-                <li>darabszam: {{item.count}}db</li>
-                <li>egysegar: {{item.basePrice}}ft</li>
-                <li>osszesen: {{item.GetTotalPrice()}}db</li>
-            </ul></li>
-    </ul>
-    <span> Osszesen {{GetTotal()}}</span>
+    <input type="text" v-model="nameFilter">
+
+    <ol>
+        <li v-for="film in GetFilteredList()">{{film}}</li>
+    </ol>
+
 </main>
 
 <script src="vue%20.js"></script>
-<script defer src="CartItem.js"></script>
-<script defer src="vuekosarscript.js"></script>
-
+<!--<script defer src="scripts.js"></script>-->
+<script defer src="vuekeresocript.js"></script>
 </body>
 
 </html>
