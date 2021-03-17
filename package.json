@@ -1,0 +1,25 @@
+{
+  "name": "vue-02-01",
+  "version": "1.0.0",
+  "description": "Elso kalandozasunk NPM foldon",
+  "main": "vuekosarscript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setiha/vue-js-exercices.git"
+  },
+  "author": "Tihi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/setiha/vue-js-exercices/issues"
+  },
+  "homepage": "https://github.com/setiha/vue-js-exercices#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
