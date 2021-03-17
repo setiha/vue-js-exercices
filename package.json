@@ -4,7 +4,8 @@
   "description": "Elso kalandozasunk NPM foldon",
   "main": "vuekosarscript.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx http-server -a localhost -p 80 -s"
   },
   "repository": {
     "type": "git",
