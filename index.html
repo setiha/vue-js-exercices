@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Osztalynaplo</title>
+    <link rel="stylesheet" href="dist/main.css">
 </head>
 <body>
 
 <main id="app">
     <h1>Kereső</h1>
-
-    <input type="text" v-model="nameFilter">
-
+    <div id="filters">
+        <input type="text" id="nameFilter" v-model="nameFilter">
+    </div>
     <ol>
         <li v-for="film in GetFilteredList()">{{film}}</li>
     </ol>

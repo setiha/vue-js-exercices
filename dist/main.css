@@ -1,0 +1,13 @@
+#filters {
+    padding: .5rem 1rem;
+    box-sizing: border-box
+}
+
+#filters #nameFilter {
+    width: 100%;
+    margin-bottom: 1rem
+}
+
+#filters #nameFilter:hover {
+    background-color: blue
+}

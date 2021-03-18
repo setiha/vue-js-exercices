@@ -4,8 +4,10 @@
   "description": "Elso kalandozasunk NPM foldon",
   "main": "vuekosarscript.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npx http-server -a localhost -p 80 -s"
+    "serve": "http-server -a localhost -p 80 ",
+    "open": "opener http://localhost",
+    "sass": "node-sass --output-style compressed src/main.scss -o dist -w",
+    "dev": "concurrently \"npm run sass\" \"npm run serve\" \"npm run open\""
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,13 @@
   },
   "homepage": "https://github.com/setiha/vue-js-exercices#readme",
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "vue": "^2.6.12"
   },
   "devDependencies": {
-    "http-server": "^0.12.3"
+    "concurrently": "^6.0.0",
+    "http-server": "^0.12.3",
+    "node-sass": "^5.0.0",
+    "opener": "^1.5.2"
   }
 }

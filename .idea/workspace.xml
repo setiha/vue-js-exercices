@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d0c79ac-9deb-4fbe-b702-107bd28cf7b7" name="Default" comment="npm init, package.json, package-lock.json, gitignore">
+    <list default="true" id="5d0c79ac-9deb-4fbe-b702-107bd28cf7b7" name="Default" comment="npm run  serve">
+      <change afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue .js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuekeresocript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuekeresoscript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,8 @@
       <workItem from="1615805778197" duration="32000" />
       <workItem from="1615806291267" duration="8916000" />
       <workItem from="1615901568001" duration="11316000" />
-      <workItem from="1615991146524" duration="5978000" />
+      <workItem from="1615991146524" duration="6322000" />
+      <workItem from="1616078124495" duration="5988000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1615542080558</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615994555192</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="npm run  serve">
+      <created>1615997816560</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615997816560</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +200,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -208,7 +218,8 @@
     <MESSAGE value="kosar" />
     <MESSAGE value="back to kereso" />
     <MESSAGE value="npm init, package.json, package-lock.json, gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm init, package.json, package-lock.json, gitignore" />
+    <MESSAGE value="npm run  serve" />
+    <option name="LAST_COMMIT_MESSAGE" value="npm run  serve" />
   </component>
   <component name="WindowStateProjectService">
     <state x="550" y="25" key="#Notifications" timestamp="1615991921327">
@@ -219,21 +230,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1615807064821" />
-    <state x="649" y="0" key="CommitChangelistDialog2" timestamp="1615994550309">
+    <state x="628" y="0" key="CommitChangelistDialog2" timestamp="1615997813718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="649" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1615994550309" />
+    <state x="628" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1615997813718" />
+    <state width="632" height="176" key="GridCell.Tab.0.bottom" timestamp="1615997886344">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="632" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615997886344" />
+    <state width="632" height="176" key="GridCell.Tab.0.center" timestamp="1615997886343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="632" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615997886343" />
+    <state width="632" height="176" key="GridCell.Tab.0.left" timestamp="1615997886343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="632" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615997886343" />
+    <state width="632" height="176" key="GridCell.Tab.0.right" timestamp="1615997886343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="632" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615997886343" />
     <state x="289" y="15" key="SettingsEditor" timestamp="1615904629510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="289" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615904629510" />
-    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1615994596218">
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1615997820211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615994596218" />
-    <state x="685" y="49" key="search.everywhere.popup" timestamp="1615819268697">
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615997820211" />
+    <state x="685" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616082712567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="685" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615819268697" />
+    <state x="685" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616082712567" />
   </component>
 </project>
