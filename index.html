@@ -13,10 +13,11 @@
     <div id="filters">
         <input type="text" id="nameFilter" v-model="nameFilter">
     </div>
-    <ol>
-        <li v-for="film in GetFilteredList()">{{film}}</li>
-    </ol>
-
+    <div id="resultList" class="row">
+        <div class="col-4" v-for="film in GetFilteredList()">
+            <div>{{film}}</div>
+        </div>
+    </div>
 </main>
 
 <script src="node_modules/vue/dist/vue.js"></script>

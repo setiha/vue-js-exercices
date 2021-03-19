@@ -1,12 +1,32 @@
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+
 $bg-color: blue;
 #filters {
   padding: .5rem 1rem;
   box-sizing: border-box;
-  #nameFilter{
+
+  #nameFilter {
     width: 100%;
     margin-bottom: 1rem;
+
     &:hover {
       background-color: $bg-color;
     }
   }
 }
+  div.row {
+    div.col-4 {
+      div {
+        padding: .5rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 1rem;
+
+        &:hover {
+          background-color: lightcoral;
+        }
+      }
+    }
+  }
