@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d0c79ac-9deb-4fbe-b702-107bd28cf7b7" name="Default" comment="lista formazasa node sass al">
-      <change afterPath="$PROJECT_DIR$/komponensek.html" afterDir="false" />
+    <list default="true" id="5d0c79ac-9deb-4fbe-b702-107bd28cf7b7" name="Default" comment="vue komponensek">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scriptkomp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/counter-button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kereso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/komponensek.html" beforeDir="false" afterPath="$PROJECT_DIR$/komponensek.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -110,6 +114,8 @@
       <workItem from="1615991146524" duration="6322000" />
       <workItem from="1616078124495" duration="7014000" />
       <workItem from="1616159389079" duration="807000" />
+      <workItem from="1616168398285" duration="2923000" />
+      <workItem from="1616346953523" duration="4770000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1615542080558</created>
@@ -195,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616084546271</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="vue komponensek">
+      <created>1616160864820</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616160864820</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +239,8 @@
     <MESSAGE value="npm init, package.json, package-lock.json, gitignore" />
     <MESSAGE value="npm run  serve" />
     <MESSAGE value="opener, conncurrently, node-sass" />
-    <option name="LAST_COMMIT_MESSAGE" value="opener, conncurrently, node-sass" />
+    <MESSAGE value="vue komponensek" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue komponensek" />
   </component>
   <component name="WindowStateProjectService">
     <state x="550" y="25" key="#Notifications" timestamp="1615991921327">
@@ -237,10 +251,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1615807064821" />
-    <state x="237" y="57" width="689" height="658" key="CommitChangelistDialog2" timestamp="1616084542993">
+    <state x="237" y="57" width="689" height="658" key="CommitChangelistDialog2" timestamp="1616160862813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="237" y="57" width="689" height="658" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1616084542993" />
+    <state x="237" y="57" width="689" height="658" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1616160862813" />
     <state width="632" height="176" key="GridCell.Tab.0.bottom" timestamp="1615997886344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -257,17 +271,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="632" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615997886343" />
-    <state x="289" y="15" key="SettingsEditor" timestamp="1615904629510">
+    <state x="368" y="0" key="SettingsEditor" timestamp="1616168708483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="289" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615904629510" />
-    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1616084549250">
+    <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616168708483" />
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2" timestamp="1616160881330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616084549250" />
-    <state x="685" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616082712567">
+    <state x="550" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616160881330" />
+    <state x="685" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616170237540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="685" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616082712567" />
+    <state x="685" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616170237540" />
   </component>
 </project>

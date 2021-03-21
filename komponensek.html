@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Komponensek</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 
 <body>
+<div class="container" id="app">
+    <h1>Komponensek</h1>
+    <div class="mb-3">
+        <input type="text" v-model="color">
+        <input type="number" v-model="point">
+    </div>
 
+    <counter-button v-bind:offset="point" v-bind:theme="color"></counter-button>
+        <counter-button v-bind:offset="point" v-bind:theme="color"></counter-button>
+        <counter-button v-bind:offset="point" v-bind:theme="color"></counter-button>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="src/counter-button.js"></script>
+    <script defer src="scriptkomp.js"></script>
 </body>
 </html>
